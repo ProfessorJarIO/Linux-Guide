@@ -56,3 +56,16 @@ Rmdir: Used to remove directories
 rmdir Articles
 ```
 
+## Constructing a Soft Link
+
+A soft link provides a pointer to a file that may reside on another filesystem which do not share the same inode numbers because they don't point to the same data. We use the ln -s/--symbolic option.
+
+```bash
+touch OriginalSFile.txt
+
+ln -s OriginalSFile.txt SoftLinkFile.txt
+
+ls -i
+2101456 OriginalSFile.txt 2101468 SoftLinkFile.txt
+```
+
