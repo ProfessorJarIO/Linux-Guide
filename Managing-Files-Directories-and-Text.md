@@ -25,7 +25,7 @@ touch test.txt
 Mkdir: Used to create directories
 
 ```bash
-touch new-directory
+mkdir new-directory
 ```
 
 ## Copying and Moving Files
