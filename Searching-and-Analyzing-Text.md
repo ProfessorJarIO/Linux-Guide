@@ -29,4 +29,13 @@ sort /etc/passwd
 sort -n /etc/passwd
 ```
 
+`wc`: Determines counts in a text file. Display the file's number of lines, words, and bytes
+
+```bash
+wc /etc/passwd
+```
+
+
+
+
 TO BE CONTINUED
